@@ -1,0 +1,99 @@
+#display1, #display2{
+    width: 400px;
+    height: 50px;
+    border: solid black 1px;
+    box-sizing: border-box;
+    font-size: 25px;
+}
+
+#display1 {
+    border-bottom: white;
+    margin-top: 20px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    padding: 10px;
+    font-family: Circular,-apple-system,BlinkMacSystemFont,Roboto,"Helvetica Neue",sans-serif;
+}
+
+#display2{
+    border-top: white;
+    margin-bottom: 20px;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    padding: 10px;
+    font-family: Circular,-apple-system,BlinkMacSystemFont,Roboto,"Helvetica Neue",sans-serif
+}
+
+#display{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.del{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.nine{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.calculator{
+    width: 450px;
+    height: 450px;
+    border: solid black 1px;
+    border-radius: 15px;
+    
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.clear, .delete, .num, .sign,.ans, .decimal{
+    background-color: #FFFFFF;
+    border: 1px solid #222222;
+    border-radius: 8px;
+    box-sizing: border-box;
+    color: #222222;
+    cursor: pointer;
+    display: inline-block;
+    font-family: Circular,-apple-system,BlinkMacSystemFont,Roboto,"Helvetica Neue",sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 20px;
+    margin: 0;
+    outline: none;
+    padding: 13px 23px;
+    position: relative;
+    text-align: center;
+    text-decoration: none;
+    touch-action: manipulation;
+    transition: box-shadow .2s,-ms-transform .1s,-webkit-transform .1s,transform .1s;
+    user-select: none;
+    -webkit-user-select: none;
+    width: 80px;
+   
+  }
+
+  .clear{
+      margin-right: 160px;
+      width:auto;
+
+  }
+  
+  .delete{
+    width: auto;
+  }
+  
+  
+  .num, .sign, .ans, .decimal{
+      margin:2px
+  }
