@@ -162,6 +162,7 @@ function equal(){
     const display1 = document.querySelector("#display1");
     const display2 = document.querySelector("#display2");
     ans.addEventListener("click", () => {
+        dec = true;
         if(display2.innerHTML === ""){
             return
         }
@@ -266,7 +267,7 @@ function calc1(){
 function equal1(){
     document.addEventListener("keydown", (event) => {
         if(event.key === "Enter" || event.key === "="){ 
-
+            dec = true
             if(display2.innerHTML === ""){
                 return;
             }
